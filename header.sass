@@ -1,0 +1,234 @@
+header
+    display: flex
+    background-color: $color-nav
+    height: 70px
+    width: 100%
+
+.nav
+    display: flex
+    position: static
+    width: 100%
+    justify-content: space-between
+    align-items: center
+    height: 60px
+    font-size: 14px
+    z-index: 5
+    &__left
+        height: 60px
+        display: flex
+        position: static
+
+        &__logo
+            img
+                padding: 5px
+                margin: 10px
+                display: flex
+                align-items: center
+                height: 50px
+                width: 130px
+                padding-top: 10px
+                border: 1px solid transparent
+                &:hover
+                    cursor: pointer
+                    border: 1px solid #fff
+        &__location
+            width: 100px
+            height: 50px
+            margin-top: 10px
+            display: block
+            border: 1px solid transparent
+            &:hover
+                cursor: pointer
+                border: 1px solid #fff
+            img
+                background-position: -71px -378px
+                width: 18px
+                height: 18px
+                margin-top: 20px
+                display: flex
+                float: left
+                align-items: center
+            &__paises
+                margin-top: 10px
+                display: flex
+                position: static
+                float: left
+                flex-flow: column nowrap
+                .txt__enviar
+                    color: #ccc
+                    margin-top: 0
+                    padding-right: 0
+                    font-size: 12px
+                    font-weight: 400
+                .txt__pais
+                    color: #ccc
+                    margin-top: 0
+                    padding-right: 0
+                    font-size: 14px
+                    font-weight: 700
+    
+.search
+    height: 70%
+    width: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    &__todos
+        height: 100%
+        border: 0
+        border-radius: 5px 0px 0px 5px
+        padding: 0 10px
+        color:#435472
+        img
+            background-position: -71px -378px
+            width: 15px
+            height: 10px
+            margin-top: 2px
+            display: flex
+            float: right
+            align-items: center
+            justify-content: center
+    &__buscador
+        width: 750px
+        height: 100%
+        border: 0
+        padding: 0 15px
+    &__lupa
+        height: 100%
+        border: 0
+        padding: 0 10px
+        background-color: #F3A847
+        border-radius: 0px 5px 5px 0px
+        img
+            width: 30px
+.idiomas
+    width: 90px
+    height: 50px
+    margin-top: 13px
+    padding-left: 10px
+    padding-right: 10px
+    border: 1px solid transparent
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    &:hover
+        cursor: pointer
+        border: 1px solid #fff
+    
+    .bandera
+        width: 28px
+        height: 28px
+    .txt__es
+        color: #ccc
+        padding-left: 2px
+        padding-right: 0px
+        font-size: 16px
+        line-height: 15px
+        font-weight: 700
+    .flecha__abajo
+            
+        width: 10px
+        height: 10px
+        margin-top: 5px
+        align-items: center
+        
+
+.cuentasLista
+    width: 149px
+    height: 50px
+    margin-top: 10px
+    padding-left: 10px
+    padding-right: 10px
+    align-items: center
+    border: 1px solid transparent
+    &:hover
+        cursor: pointer
+        border: 1px solid #fff
+    .txt__holaIdenticate
+        color: #ccc
+        margin-top: 6px
+        padding-right: 0
+        font-size: 12px
+        font-weight: 400
+        display: flex
+    .txt__cuentaLista
+        color: #ccc
+        margin-top: 2px
+        padding-left: 3px
+        padding-right: 0
+        font-size: 16px
+        line-height: 15px
+        font-weight: 700
+        justify-content: center
+        align-items: center
+    .flecha__abajo
+        background-position: -71px -378px
+        width: 10px
+        height: 10px
+        margin-top: 5px
+        align-items: center
+.devoluciones
+    width: 105px
+    height: 50px
+    margin-top: 10px
+    padding-left: 10px
+    padding-right: 10px
+    align-items: center
+    border: 1px solid transparent
+    &:hover
+        cursor: pointer
+        border: 1px solid #fff
+    .txt__devoluciones
+        color: #ccc
+        margin-top: 6px
+        padding-right: 0
+        font-size: 12px
+        font-weight: 400
+        display: flex
+    .txt__pedidos
+        color: #ccc
+        margin-top: 2px
+        padding-left: 3px
+        padding-right: 0
+        font-size: 16px
+        line-height: 15px
+        font-weight: 700
+        justify-content: center
+        align-items: center
+.carrito
+    width: 115px
+    height: 50px
+    margin-top: 10px
+    padding-left: 10px
+    padding-right: 10px
+    align-items: center
+    border: 1px solid transparent
+    &:hover
+        cursor: pointer
+        border: 1px solid #fff
+    .txt__contador
+        color: #F3A847
+        margin-top: 7px
+        padding-left: 15px
+        padding-right: 0
+        font-size: 15px
+        font-weight: 600
+        display: flex
+    .img__carrito
+        margin-top: -17px
+        display: flex
+    .txt__carrito
+        color: #fff
+        margin-top:-20px
+        padding-left: 60px
+        padding-right: 15px
+        display: flex
+        font-size: 16px
+        line-height: 15px
+        font-weight: 700
+        justify-content: center
+        align-items: center
+
+
+
